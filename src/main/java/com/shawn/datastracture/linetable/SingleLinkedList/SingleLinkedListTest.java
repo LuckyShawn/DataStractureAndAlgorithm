@@ -1,4 +1,4 @@
-package com.shawn.datastracture.SingleLinkedList;
+package com.shawn.datastracture.linetable.SingleLinkedList;
 
 
 /**
@@ -15,6 +15,11 @@ public class SingleLinkedListTest {
         list.add(444);
         list.add(555);
 
-        System.out.println(list);
+        list.add(2,2);
+
+        System.out.println(list.isEmpty());
+        System.out.println(list.get(1));
+        System.out.println(list.size());
+        System.out.println(list.toString());
     }
 }

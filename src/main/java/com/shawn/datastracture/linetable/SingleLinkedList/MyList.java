@@ -1,4 +1,4 @@
-package com.shawn.datastracture.SingleLinkedList;
+package com.shawn.datastracture.linetable.SingleLinkedList;
 
 /**
  * @Description 线性表接口
