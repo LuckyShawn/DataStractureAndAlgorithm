@@ -26,6 +26,8 @@ public class TestBinarySearch {
 
     /**
      * 使用递归
+     * 时间复杂度：T(n) = O(log2n)
+     * 空间复杂度：S(n) = O(log2n) 浪费空间
      * @param array
      * @param key
      * @return
